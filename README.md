@@ -222,37 +222,28 @@ matrizB:
   [11, 12]
 ]
 
-# Proceso de Multiplicación de Matrices
+Proceso de Multiplicación
 
-Para calcular el elemento en la posición `(i, j)` de la matriz resultante, realizamos las siguientes multiplicaciones y sumas.
+Para calcular el elemento en la posición (i, j) de la matriz resultante, realizamos las siguientes multiplicaciones y sumas:
 
-### Ejemplo de cálculo de las posiciones de la matriz resultante:
+Para la posición (0, 0):
 
-- **Posición (0, 0):**
+(1×7)+(2×9)+(3×11)=7+18+33=58
 
-  \[
-  (1 \times 7) + (2 \times 9) + (3 \times 11) = 7 + 18 + 33 = 58
-  \]
+Para la posición (0, 1):
 
-- **Posición (0, 1):**
+(1×8)+(2×10)+(3×12)=8+20+36=64
 
-  \[
-  (1 \times 8) + (2 \times 10) + (3 \times 12) = 8 + 20 + 36 = 64
-  \]
+Para la posición (1, 0):
 
-- **Posición (1, 0):**
+(4×7)+(5×9)+(6×11)=28+45+66=139
 
-  \[
-  (4 \times 7) + (5 \times 9) + (6 \times 11) = 28 + 45 + 66 = 139
-  \]
+Para la posición (1, 1):
 
-- **Posición (1, 1):**
-
-  \[
-  (4 \times 8) + (5 \times 10) + (6 \times 12) = 32 + 50 + 72 = 154
-  \]
+(4×8)+(5×10)+(6×12)=32+50+72=154
 
 Salida
+
 Resultado de la multiplicación:
 
 [
