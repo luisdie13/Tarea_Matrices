@@ -122,3 +122,141 @@ La suma de matrices solo es posible si ambas matrices tienen las mismas dimensio
 ### Resultado:
 
 Las matrices no son compatibles para la suma, ya que tienen dimensiones diferentes.
+
+
+## Explicación del Algoritmo para Rotar una Matriz 90 Grados en Sentido Horario
+
+Este algoritmo rota una matriz cuadrada 90 grados en el sentido horario. La rotación se realiza en dos pasos principales:
+
+### 1. **Transposición de la Matriz**
+En el primer paso, cambiamos las posiciones de los elementos en la matriz. Específicamente, para cada par de índices `(i, j)`, intercambiamos el valor de la posición `(i, j)` con el de la posición `(j, i)`. Este paso convierte las filas de la matriz en columnas.
+
+### 2. **Inversión de las Filas**
+En el segundo paso, después de realizar la transposición, invertimos cada fila de la matriz transpuesta. Este paso es el que completa la rotación de la matriz 90 grados en el sentido horario, colocando los elementos en la posición correcta.
+
+### Procedimiento Resumido:
+1. **Transposición:** Intercambia los elementos `(i, j)` con `(j, i)`.
+2. **Inversión de Filas:** Invierte cada fila de la matriz transpuesta.
+
+### Ejemplo
+
+#### Entrada (Matriz Original):
+
+```csharp
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+Salida (Matriz Rotada 90 Grados):
+[
+  [7, 4, 1],
+  [8, 5, 2],
+  [9, 6, 3]
+]
+
+
+
+# Procedimiento para la Multiplicación de Matrices
+
+Este documento explica el procedimiento paso a paso para realizar la multiplicación de dos matrices en Node.js.
+
+---
+
+## Explicación Paso a Paso
+
+### 1. Verificación de Compatibilidad
+
+Para que la multiplicación de matrices sea posible, se debe verificar que el número de columnas de la primera matriz (`matrizA`) coincida con el número de filas de la segunda matriz (`matrizB`).
+
+- **Condición**: El número de columnas de `matrizA` debe ser igual al número de filas de `matrizB`.
+
+Si esta condición no se cumple, la multiplicación no es posible, y la función debe:
+
+- Imprimir un mensaje de error en consola.
+- Retornar un arreglo vacío.
+
+### 2. Crear la Matriz de Resultados
+
+La matriz resultante tendrá:
+
+- **Filas**: Igual al número de filas de la primera matriz (`matrizA`).
+- **Columnas**: Igual al número de columnas de la segunda matriz (`matrizB`).
+
+Inicializamos esta matriz con ceros. Esto nos da una estructura vacía en la que almacenaremos los resultados de las multiplicaciones.
+
+### 3. Multiplicación de Matrices
+
+La multiplicación de matrices se realiza de la siguiente manera:
+
+1. **Iterar** sobre cada fila de la primera matriz (`matrizA`).
+2. **Iterar** sobre cada columna de la segunda matriz (`matrizB`).
+3. Para cada combinación de fila de `matrizA` y columna de `matrizB`:
+   - Multiplicar los elementos correspondientes de la fila de `matrizA` con la columna de `matrizB`.
+   - Sumar los resultados de esas multiplicaciones.
+
+El resultado de esta suma se coloca en la posición correspondiente en la matriz de resultados.
+
+### 4. Resultado
+
+Finalmente, la función retorna la matriz resultante de la multiplicación.
+
+---
+
+## Ejemplo de Entrada y Salida
+
+### Entrada
+
+#### `matrizA`:
+
+```javascript
+[
+  [1, 2, 3],
+  [4, 5, 6]
+]
+
+matrizB:
+[
+  [7, 8],
+  [9, 10],
+  [11, 12]
+]
+
+# Proceso de Multiplicación de Matrices
+
+Para calcular el elemento en la posición `(i, j)` de la matriz resultante, realizamos las siguientes multiplicaciones y sumas.
+
+### Ejemplo de cálculo de las posiciones de la matriz resultante:
+
+- **Posición (0, 0):**
+
+  \[
+  (1 \times 7) + (2 \times 9) + (3 \times 11) = 7 + 18 + 33 = 58
+  \]
+
+- **Posición (0, 1):**
+
+  \[
+  (1 \times 8) + (2 \times 10) + (3 \times 12) = 8 + 20 + 36 = 64
+  \]
+
+- **Posición (1, 0):**
+
+  \[
+  (4 \times 7) + (5 \times 9) + (6 \times 11) = 28 + 45 + 66 = 139
+  \]
+
+- **Posición (1, 1):**
+
+  \[
+  (4 \times 8) + (5 \times 10) + (6 \times 12) = 32 + 50 + 72 = 154
+  \]
+
+Salida
+Resultado de la multiplicación:
+
+[
+  [58, 64],
+  [139, 154]
+]
+
