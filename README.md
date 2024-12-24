@@ -157,13 +157,13 @@ Salida (Matriz Rotada 90 Grados):
 
 
 
-# Procedimiento para la Multiplicación de Matrices
+## Procedimiento para la Multiplicación de Matrices
 
 Este documento explica el procedimiento paso a paso para realizar la multiplicación de dos matrices en Node.js.
 
 ---
 
-## Explicación Paso a Paso
+### Explicación Paso a Paso
 
 ### 1. Verificación de Compatibilidad
 
