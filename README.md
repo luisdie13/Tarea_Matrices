@@ -124,7 +124,7 @@ La suma de matrices solo es posible si ambas matrices tienen las mismas dimensio
 Las matrices no son compatibles para la suma, ya que tienen dimensiones diferentes.
 
 
-## Explicación del Algoritmo para Rotar una Matriz 90 Grados en Sentido Horario
+# Explicación del Algoritmo para Rotar una Matriz 90 Grados en Sentido Horario
 
 Este algoritmo rota una matriz cuadrada 90 grados en el sentido horario. La rotación se realiza en dos pasos principales:
 
@@ -140,7 +140,7 @@ En el segundo paso, después de realizar la transposición, invertimos cada fila
 
 
 
-## Procedimiento para la Multiplicación de Matrices
+# Procedimiento para la Multiplicación de Matrices
 
 Este documento explica el procedimiento paso a paso para realizar la multiplicación de dos matrices en Node.js.
 
