@@ -138,23 +138,6 @@ En el segundo paso, después de realizar la transposición, invertimos cada fila
 1. **Transposición:** Intercambia los elementos `(i, j)` con `(j, i)`.
 2. **Inversión de Filas:** Invierte cada fila de la matriz transpuesta.
 
-### Ejemplo
-
-#### Entrada (Matriz Original):
-
-```csharp
-[
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9]
-]
-Salida (Matriz Rotada 90 Grados):
-[
-  [7, 4, 1],
-  [8, 5, 2],
-  [9, 6, 3]
-]
-
 
 
 ## Procedimiento para la Multiplicación de Matrices
